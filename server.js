@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
 });
 
 var corsOptions = {
-  origin: " "
+  origin: "http://dev3.jarvit.local"
 };
 
 app.use(cors(corsOptions));
